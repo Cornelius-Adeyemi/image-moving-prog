@@ -1,0 +1,41 @@
+.dot{
+    background-color: yellow;
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 2px;
+    border: 1px solid blue;
+}
+
+.dot-div{
+    display: flex;
+    justify-content: center;
+}
+
+.image-div{
+    
+    position: relative;
+}
+
+.image{
+    display: block;
+    margin: auto;
+}
+
+span{
+    position: absolute;
+}
+
+.forward{
+   top: 49%;
+   right:30%;
+}
+
+.backward{
+    top:49%;
+    left:30%
+}
+
+.dot:focus{
+    background-color: blue;
+}
